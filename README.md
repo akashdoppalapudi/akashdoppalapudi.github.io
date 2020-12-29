@@ -1,2 +1,2 @@
 # Automation Club
-https://akashdoppalpudi.github.io/
+https://akashdoppalapudi.github.io/
