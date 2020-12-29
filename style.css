@@ -52,3 +52,10 @@ nav a{
     width : 45%;
     margin-left:1%;
 }
+
+.about{
+    font-weight: bold;
+    padding: 1%;
+    width:auto;
+    margin:auto;
+}
