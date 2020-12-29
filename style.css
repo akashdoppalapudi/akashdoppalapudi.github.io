@@ -1,0 +1,54 @@
+body{
+    padding : 1%;
+}
+header{
+    padding : 1.5%;
+    background-image: url(images/background.jpg);
+    background-size : 100%;
+    background-repeat : no-repeat;
+    display: block;
+}
+
+img{
+    display:inline-block;
+    height : 150px;
+}
+
+h1{
+    display:inline-block;
+    color:#f0711d;
+    width : 75%;
+    text-align:center;
+    font-size : 400%;
+}
+
+nav a{
+	background-color:rgba(255, 255, 255, 0.3);
+	text-decoration:none;
+	font-weight:bolder;
+	display:inline-block;
+	border-radius:5px;
+	width:10%;
+	padding:1.5%;
+	margin-bottom:3%;
+    margin-right:5%;
+    margin-left : 5%;
+    color:rgb(8, 157, 243);
+    text-align: center;
+}
+
+.active{
+    background-color:rgba(255, 255, 255, 0.9);
+    font-size: 125%;
+    color:blue;
+}
+
+.club_mail{
+    text-align:center;
+}
+
+.admin_mails > div{
+    display : inline-block;
+    width : 45%;
+    margin-left:1%;
+}
