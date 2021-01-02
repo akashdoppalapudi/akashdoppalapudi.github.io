@@ -14,16 +14,16 @@ img{
     height : 150px;
 }
 
-h1{
+header>div>h1{
     display:inline-block;
-    color:#f0711d;
+    color:blue;
     width : 75%;
     text-align:center;
     font-size : 400%;
 }
 
 nav a{
-	background-color:rgba(255, 255, 255, 0.3);
+	background-color:rgba(52, 235, 216, 0.3);
 	text-decoration:none;
 	font-weight:bolder;
 	display:inline-block;
@@ -33,14 +33,14 @@ nav a{
 	margin-bottom:3%;
     margin-right:5%;
     margin-left : 5%;
-    color:rgb(8, 157, 243);
+    color:blue;
     text-align: center;
 }
 
 .active{
-    background-color:rgba(255, 255, 255, 0.9);
+    background-color:rgba(52, 235, 216, 0.9);
     font-size: 125%;
-    color:blue;
+    color:white;
 }
 
 .club_mail{
