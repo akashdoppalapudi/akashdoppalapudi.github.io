@@ -115,10 +115,6 @@ footer>a>img{
     float:bottom;
 }
 
-.archives{
-    overflow : scroll;
-}
-
 .announcement{
     display:inline-block;
     width:45%;
