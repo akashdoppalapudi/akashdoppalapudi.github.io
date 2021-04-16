@@ -10,7 +10,6 @@ html{
     box-sizing: border-box;
 }
 
-
 body{
     padding : 1%;
     margin :1%;
@@ -130,3 +129,63 @@ footer>a>img{
 .announcement>p{
     font-size: 110%;
 }
+
+@media only screen and (max-device-width: 600px) {
+    html{
+         background-color: #d3ebed;
+        box-sizing: border-box;
+    }
+    .home{
+        background-image : url('images/background-mobile.jpg');
+        background-size : 110%;
+        background-repeat : no-repeat;
+        box-sizing: border-box;
+    }
+    .about p{
+        font-size:small;
+    }
+    nav{
+        display:inline-block;
+        width:40%;
+    }
+    nav a{
+        display:block;
+    }
+    header h1{
+        font-size:250%;
+    }
+    .club_mail{
+        font-size:90%;
+    }
+    .admin_mails{
+        font-size:80%;
+    }
+    .admin_mails>div{
+        display:block;
+        width:60%;
+    }
+    nav a{
+        text-decoration:none;
+        padding : 2px;
+        border-radius : 10%;
+        background-color :rgba(253, 210, 71, 0.5);
+        margin-bottom:2%;
+    }
+    .active{
+        background-color:rgba(253, 210, 71, 0.9);
+        font-size: 100%;
+        color:white;
+        transition : all 0.3s ease 0s;
+        border:black solid 1px;
+    }
+    footer>a>img{
+        width:10%;
+    }
+    .announcement{
+        display:block;
+        width:90%;
+    }
+    .announcement>img{
+        width:60%;
+    }
+    }
