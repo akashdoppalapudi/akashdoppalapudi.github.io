@@ -154,6 +154,9 @@ footer>a>img{
     header h1{
         font-size:250%;
     }
+    .home body header h1{
+        font-size:250%;
+    }
     .club_mail{
         font-size:90%;
     }
